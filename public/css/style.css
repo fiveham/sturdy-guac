@@ -8148,6 +8148,18 @@ textarea.form-control {
     #map {
       height: 300px; } }
 
+/* Match autocomplete input style to standard google map controls */
+#mapBox #pac-input {
+  margin-top: 10px;
+  height: 38px;
+  padding: 6px 5px;
+  border: 0px;
+  border-radius: 2px;
+  box-shadow: rgba(0,0,0,0.3) 0px 1px 4px -1px;
+  box-sizing: border-box;
+  font-size: 14px;
+  text-overflow: ellipsis; }
+
 @-webkit-keyframes pulse {
   0% {
     -webkit-box-shadow: 0 0 0 0 rgba(246, 126, 125, 0.4); }
